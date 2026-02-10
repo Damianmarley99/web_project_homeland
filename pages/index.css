@@ -1,0 +1,145 @@
+@import url("../vendor/normalize.css");
+
+@font-face {
+    font-family: "Inter";
+    src: url("../vendor/fonts/Inter-Regular.woff2");
+    font-weight: normal;
+}
+
+.page {
+  background-color: #000;
+  min-width: 320px;
+  max-width: 1440px;
+  width: 100%;
+  min-height: 100%;
+  margin: auto;
+  font-family: 'Inter';
+  display: flex;  
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+  margin: 0; 
+  color: #fff;
+ }
+
+ .header {
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.header__nav {
+  min-height: 20vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__nav-logo {
+  opacity: 1;
+  justify-self: center;
+  height: 2.5%;
+  width: 2.5%;
+  margin: auto;
+}
+
+.header__nav-text {
+  justify-self: center;
+  margin: auto;
+}
+
+
+
+.header__title {
+  font-family: Inter;
+font-weight: 900;
+font-style: Black;
+font-size: 96px;
+leading-trim: NONE;
+line-height: 100px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.header__subtitle {
+  font-family: Inter;
+font-weight: 400;
+font-size: 30px;
+leading-trim: NONE;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.header__container {
+  display: flex;
+  justify-self: center;
+  margin: auto;
+}
+
+.header__container-image {
+  max-width: 100%;
+  min-width: 30vh;
+  max-height: 70vh;
+  min-height: 30vh;
+  margin: auto;
+  }
+
+.content {
+  width: 90%;
+  margin: auto;
+  max-width: 100%;
+  min-height: 30vh;
+  display: flex;
+}
+
+.content__title {
+font-family: Inter;
+font-weight: 900;
+font-size: 54px;
+leading-trim: NONE;
+line-height: 58px;
+letter-spacing: 0%;
+
+}
+
+.content__quote {
+font-family: Inter;
+font-weight: 400;
+font-size: 24px;
+leading-trim: NONE;
+line-height: 34px;
+letter-spacing: 0%;
+
+}
+
+.content__quote-name {
+font-family: Inter;
+font-weight: 400;
+font-size: 24px;
+leading-trim: NONE;
+line-height: 34px;
+letter-spacing: 0%;
+text-align: right;
+
+}
+
+.content__text {
+font-family: Inter;
+font-weight: 400;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 163%;
+letter-spacing: 0%;
+
+}
+
+.footer {
+  max-width: 100%;
+  min-height: 10vh;
+  margin: auto;
+  display: flex;
+  color: #fff;
+}
