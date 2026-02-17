@@ -1,23 +1,34 @@
 @import url("../vendor/normalize.css");
 
 @font-face {
-    font-family: "Inter";
+    font-family: 'Inter';
     src: url("../vendor/fonts/Inter-Regular.woff2");
     font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("../vendor/fonts/Inter-Bold.woff2");
+  font-weight: bold;
+  font-style: normal;
 }
 
 .page {
   background-color: #000;
   min-width: 320px;
-  max-width: 1440px;
-  width: 100%;
+  max-width: 1280px;
   min-height: 100%;
-  margin: auto;
+  margin: 0 auto;
+  width: 1280px;
+  height: 2008px;
   font-family: 'Inter';
   display: flex;  
   flex-direction: column;
-  flex-wrap: nowrap;
+  margin: 0;
 }
+
+
 
 h1, h2, h3, h4, h5, h6, p, li {
   margin: 0; 
@@ -25,121 +36,130 @@ h1, h2, h3, h4, h5, h6, p, li {
  }
 
  .header {
-  width: 100%;
-  margin: auto;
+  margin: 0 auto;
   box-sizing: border-box;
+  max-width: 984px;
+  width: 100%;
 }
 
-.header__nav {
-  min-height: 20vh;
-  width: 100%;
+.header__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 91.06px;
+  width: 254.84px;
+}
+
+.header__logo-image {
+  opacity: 1;
+  justify-self: center;
+  width: 32px;
+  margin: 0 auto;
+  padding: 34px 0 22px 0;
+}
+
+.header__logo-text {
+  justify-self: center;
+  margin: 0 auto;
+  height: 14.94px;
+  font-weight: bold;
+}
+
+.header__cover {
   display: flex;
   flex-direction: column;
 }
 
-.header__nav-logo {
-  opacity: 1;
-  justify-self: center;
-  height: 2.5%;
-  width: 2.5%;
+.header__cover-title {
+  font-family: 'Inter';
+  font-weight: 900;
+  font-style: Black;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  max-width: 720px;
   margin: auto;
+  padding-bottom: 32px;
 }
 
-.header__nav-text {
-  justify-self: center;
+.header__cover-subtitle {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+  max-width: 720px;
   margin: auto;
+  padding-bottom: 64px;
 }
 
-
-
-.header__title {
-  font-family: Inter;
-font-weight: 900;
-font-style: Black;
-font-size: 96px;
-leading-trim: NONE;
-line-height: 100px;
-letter-spacing: 0%;
-text-align: center;
-}
-
-.header__subtitle {
-  font-family: Inter;
-font-weight: 400;
-font-size: 30px;
-leading-trim: NONE;
-line-height: 36px;
-letter-spacing: 0%;
-text-align: center;
-}
-
-.header__container {
+.header__cover-container {
   display: flex;
   justify-self: center;
   margin: auto;
+  padding-bottom: 92px;
 }
 
-.header__container-image {
-  max-width: 100%;
+.header__cover-image {
+  width: 100%;
   min-width: 30vh;
   max-height: 70vh;
-  min-height: 30vh;
+  min-height: 200px;
   margin: auto;
   }
 
 .content {
   width: 90%;
-  margin: auto;
-  max-width: 100%;
-  min-height: 30vh;
+  margin:  0;
   display: flex;
+  max-width: 830px;
+  padding-left: 148px;
 }
 
 .content__title {
-font-family: Inter;
+font-family: 'Inter';
 font-weight: 900;
 font-size: 54px;
-leading-trim: NONE;
-line-height: 58px;
+line-height: 107.4%;
 letter-spacing: 0%;
-
+padding-bottom: 39.98px;
 }
 
 .content__quote {
-font-family: Inter;
-font-weight: 400;
-font-size: 24px;
-leading-trim: NONE;
-line-height: 34px;
-letter-spacing: 0%;
-
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 141.6%;
+  letter-spacing: 0%;
+  padding-bottom: 10px;
 }
 
 .content__quote-name {
-font-family: Inter;
+font-family: 'Inter';
 font-weight: 400;
 font-size: 24px;
-leading-trim: NONE;
-line-height: 34px;
+line-height: 141.6%;
 letter-spacing: 0%;
 text-align: right;
-
+padding-bottom: 31.9px;
 }
 
 .content__text {
-font-family: Inter;
-font-weight: 400;
-font-size: 16px;
-leading-trim: NONE;
-line-height: 163%;
-letter-spacing: 0%;
-
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  letter-spacing: 0%;
+  padding-bottom: 92px;
 }
 
 .footer {
-  max-width: 100%;
-  min-height: 10vh;
-  margin: auto;
+  font-size: 16px;
+  margin: 0 auto;
   display: flex;
   color: #fff;
+  padding-bottom: 1.2%;
 }
