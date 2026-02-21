@@ -62,13 +62,13 @@ Organización general:
 
 ---
 
-## 📱 Enfoque responsivo
+## Enfoque responsivo
 
-El proyecto utiliza un enfoque mobile-first, comenzando con estilos base para pantallas pequeñas y escalando progresivamente mediante media queries para pantallas más grandes.
+El proyecto utiliza un enfoque monitor-first, comenzando con estilos base para pantallas de monitor y bajando progresivamente mediante media queries para pantallas más pequeñas.
 
 Esto permite:
 
-* Mejor rendimiento en móviles
+* Mejor rendimiento 
 * Escalabilidad del diseño
 * Mayor control sobre el layout en diferentes resoluciones
 
@@ -86,3 +86,6 @@ Esto permite:
 ## 👨‍💻 Damian Maza Ruiz
 
 Proyecto web responsiva y adaptación de diseño multiplataforma.
+
+
+Link de github: https://github.com/Damianmarley99/web_project_homeland.git
