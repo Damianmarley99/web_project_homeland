@@ -43,3 +43,70 @@ padding-bottom: 1.9vh;
   padding-bottom: 5.5vh;
   max-width: 95%;
 }
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .content {
+  max-width: 31vh;
+  padding-left: 2vh;
+}
+
+.content__title {
+font-family: 'Inter';
+font-weight: 900;
+font-size: 45px;
+line-height: 49px;
+padding-bottom: 3vh;
+}
+
+.content__quote {
+  padding-bottom: 1vh;
+}
+
+.content__text {
+  padding-bottom: 5.4vh;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 544px) {
+  .content {
+  max-width: 22vh;
+  padding-left: 1vh;
+  min-height: auto;
+}
+
+.content__title {
+font-family: Inter;
+font-weight: 900;
+font-size: 32px;
+padding-bottom: 2.2vh;
+}
+
+.content__quote {
+  line-height: 125%;
+  padding-bottom: 1vh;
+}
+
+.content__quote-name {
+  padding-right: 1vh;
+}
+ }

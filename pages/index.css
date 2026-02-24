@@ -1,6 +1,6 @@
 @import url("../vendor/normalize.css");
 
-@import url("../vendor/fonts/fonts.css");
+@import url("../vendor/fonts.css");
 
 @import url("../blocks/page.css");
 
@@ -11,56 +11,6 @@
 @import url("../blocks/footer.css");
 
 
-@media screen and (max-width: 1024px) {
-  .page {
-  max-width: 768px;
-  margin: 0 auto;
-}
-
-.header__cover-title {
-  font-family: 'Inter';
-  font-weight: 900;
-  font-size: 75px;
-  line-height: 79px;
-  text-align: center;
-  max-width: 24vh;
-  padding-bottom: 1.5vh;
-}
-
-.header__cover-subtitle {
-  padding-bottom: 1.6vh;
-}
-
-.header__cover-container {
-  max-width: 100vh;
-  padding-bottom: 4.7vh;
-}
-
-.header__cover-image {
-  max-width: 100%;
-  }
-
-.content {
-  max-width: 31vh;
-  padding-left: 2vh;
-}
-
-.content__title {
-font-family: 'Inter';
-font-weight: 900;
-font-size: 45px;
-line-height: 49px;
-padding-bottom: 3vh;
-}
-
-.content__quote {
-  padding-bottom: 1vh;
-}
-
-.content__text {
-  padding-bottom: 5.4vh;
-}
-}
 
 
 
@@ -69,80 +19,5 @@ padding-bottom: 3vh;
 
 
 
- @media screen and (max-width: 544px) {
-  .page {
- max-width: 320px;
-  margin: 0 auto;
-}
-
-
-.header__logo {
-  padding-bottom: 3.8vh;
-  min-width: 19vh;
-}
-
-.header__logo-image {
-  width: 1.1vh;
-  padding: 1.9vh 0 1.1vh 0;
-}
-
-.header__logo-text {
-  min-height: 1.1vh;
-  font-size: 12px;
-}
-
-
-.header__cover-title {
-  font-family: 'Inter';
-  font-size: 40px;
-  line-height: 110%;
-  max-width: 15vh;
-  padding-bottom: 1vh;
-}
-
-.header__cover-subtitle {
-  font-family: 'Inter';
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  max-width: 22vh;
-  width: 100%;
-  padding-bottom: 2.6vh;
-}
-
-.header__cover-container {
-  max-width: 40vh;
-  max-height: 22vh;
-  padding-bottom: 3.2vh;
-}
-
-.content {
-  max-width: 22vh;
-  padding-left: 1vh;
-  min-height: auto;
-}
-
-.content__title {
-font-family: Inter;
-font-weight: 900;
-font-size: 32px;
-padding-bottom: 2.2vh;
-}
-
-.content__quote {
-  line-height: 125%;
-  padding-bottom: 1vh;
-}
-
-.content__quote-name {
-  padding-right: 1vh;
-}
-
-
-.footer {
-    padding-bottom: 1.7vh;
-} 
-
-}
 
 

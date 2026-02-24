@@ -11,9 +11,31 @@
   margin: 0;
 }
 
-
-
 h1, h2, h3, h4, h5, h6, p, li {
   margin: 0; 
   color: #fff;
+ }
+
+
+
+
+
+ @media screen and (max-width: 1024px) {
+ .page {
+  max-width: 768px;
+  margin: 0 auto;
+}
+ }
+
+
+
+
+
+
+
+@media screen and (max-width: 544px) {
+  .page {
+ max-width: 320px;
+  margin: 0 auto;
+}
  }
