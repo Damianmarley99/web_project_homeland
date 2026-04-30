@@ -6,7 +6,7 @@
   min-height: auto;
 }
 
-.content__title {
+.content__header-title {
 font-family: 'Inter';
 font-weight: 900;
 font-size: 54px;
@@ -15,7 +15,7 @@ letter-spacing: 0%;
 padding-bottom: 2.7vh;
 }
 
-.content__quote {
+.content__header-quote {
   font-family: 'Inter';
   font-weight: 400;
   font-size: 24px;
@@ -24,7 +24,7 @@ padding-bottom: 2.7vh;
   padding-bottom: 1vh;
 }
 
-.content__quote-name {
+.content__header-quotename {
 font-family: 'Inter';
 font-weight: 400;
 font-size: 24px;
@@ -34,7 +34,7 @@ text-align: right;
 padding-bottom: 1.9vh;
 }
 
-.content__text {
+.content__header-text {
   font-family: 'Inter';
   font-weight: 400;
   font-size: 16px;
@@ -55,7 +55,7 @@ padding-bottom: 1.9vh;
   padding-left: 2vh;
 }
 
-.content__title {
+.content__header-title {
 font-family: 'Inter';
 font-weight: 900;
 font-size: 45px;
@@ -63,11 +63,11 @@ line-height: 49px;
 padding-bottom: 3vh;
 }
 
-.content__quote {
+.content__header-quote {
   padding-bottom: 1vh;
 }
 
-.content__text {
+.content__header-text {
   padding-bottom: 5.4vh;
 }
 }
@@ -94,19 +94,19 @@ padding-bottom: 3vh;
   min-height: auto;
 }
 
-.content__title {
+.content__header-title {
 font-family: Inter;
 font-weight: 900;
 font-size: 32px;
 padding-bottom: 2.2vh;
 }
 
-.content__quote {
+.content__header-quote {
   line-height: 125%;
   padding-bottom: 1vh;
 }
 
-.content__quote-name {
+.content__header-quotename {
   padding-right: 1vh;
 }
  }
