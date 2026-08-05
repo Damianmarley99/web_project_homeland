@@ -6,6 +6,10 @@
   min-height: auto;
 }
 
+.content__header {
+  min-width: 100%;
+}
+
 .content__header-title {
 font-family: 'Inter';
 font-weight: 900;
