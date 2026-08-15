@@ -10,6 +10,8 @@
 .content__header {
   flex-wrap: wrap;
   min-width: 360px;
+  
+
   }
 
 .content__header-title {
@@ -56,7 +58,14 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 10px; 
   min-height: 200px; 
-  background-color: #f0f0f0;
+  background-color: #000;
+  width: 100%;  
+  height: 250px;    
+  object-fit: cover;  
+  object-position: center; 
+  border-radius: 8px;
+  justify-content: center; 
+  justify-items: center; 
   }
  
 
@@ -64,6 +73,9 @@
   width: 100%;
   height: auto;
   min-width: 500px;
+  height: 213px;        
+  object-fit: cover;  
+  object-position: center;
 }
    
 
