@@ -53,7 +53,7 @@
   
 }
 
-.photo__grid_container {
+.photo-grid__container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px; 
@@ -70,7 +70,7 @@
   }
  
 
-.photo__grid_image {
+.photo-grid__image {
   width: 100%;
   height: auto;
   min-width: 500px;
