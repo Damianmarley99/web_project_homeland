@@ -1,9 +1,9 @@
 .content {
-  margin:  0;
+  margin: 0 auto;
   display: flex;
-  max-width: 34vh;
-  padding-left: 6.6vh;
-  min-height: auto;
+  width: 100%;
+  max-width: 1180px;
+  padding: 0;
   flex-direction: column;
 }
 
@@ -56,27 +56,19 @@
 .photo-grid__container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10px; 
-  min-height: 200px; 
-  background-color: #000;
-  width: 100%;  
-  height: 250px;    
-  object-fit: cover;  
-  object-position: center; 
-  border-radius: 8px;
-  justify-content: center; 
-  justify-items: center; 
-  margin-bottom: 150px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-auto-flow: column;
+  gap: 20px;
+  width: 100%;
+   margin-bottom: 150px;
   }
  
 
 .photo-grid__image {
-  width: 100%;
+   width: 100%;
   height: auto;
-  min-width: 500px;
-  height: 213px;        
-  object-fit: cover;  
-  object-position: center;
+  min-width: 0;
+  object-fit: cover;
 }
    
 
