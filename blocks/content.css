@@ -72,6 +72,39 @@
 }
    
 
+.places {
+  width: 100%;
+}
+
+.places__place {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.places__title-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+  gap: 40px;
+}
+
+.places__description-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.places__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.places__text {
+  min-width: 0;
+}
+
 
 
 
