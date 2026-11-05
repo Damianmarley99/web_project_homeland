@@ -74,41 +74,67 @@
 
 .places {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding-bottom: 80px;
 }
 
 .places__place {
   width: 100%;
-  margin-bottom: 80px;
 }
 
 .places__title-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 460px 484px;
   align-items: end;
   gap: 40px;
+  margin-bottom: 48px;
+}
+
+.places__title {
+  font-family: "Inter", sans-serif;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  letter-spacing: 0;
+  color: #fff;
+  margin: 0;
+}
+
+.places__artist-label {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #aaa;
+  margin: 0;
+}
+
+.places__artist-name {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0;
+  color: #fff;
+  margin: 0;
 }
 
 .places__description-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 460px 484px;
   gap: 40px;
   align-items: start;
 }
 
-.places__image {
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: opacity 0.3s ease;
-}
-
-.places__image:hover {
-  filter: brightness(0.5);
-  cursor: pointer;
-}
-
-.places__text {
-  min-width: 0;
+.places__image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
 }
 
 .places__link {
@@ -116,7 +142,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 288px;
+  max-width: 289px;
   min-height: 48px;
   box-sizing: border-box;
   border-radius: 4px;
@@ -135,6 +161,40 @@
   transition: opacity 0.3s ease;
   cursor: pointer;
 }
+
+.places__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease;
+}
+
+.places__image:hover {
+  filter: brightness(0.5);
+  cursor: pointer;
+}
+
+.places__text {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+
+.places__paragraph {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.63;
+  margin: 0;
+  }
+
+.places__paragraph + .places__paragraph {
+  margin-top: 25px;
+}
+
+
 
 
 .places__link:hover {
@@ -249,6 +309,11 @@ padding-bottom: 2.2vh;
     gap: 30px;
     margin-bottom: 30px;
   }
+
+.places__title {
+  font-size: 32px;
+  line-height: 35px;
+}  
 
 .places__artist {
     display: flex;
