@@ -204,19 +204,20 @@
 
 
 @media screen and (max-width: 1024px) {
-  .content {
+
+.content {
   width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-    padding: 0 24px;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 0 24px;
 }
 
 .content__header-title {
-font-family: 'Inter';
-font-weight: 900;
-font-size: 45px;
-line-height: 49px;
-padding-bottom: 3vh;
+  font-family: 'Inter';
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 49px;
+  padding-bottom: 3vh;
 }
 
 .content__header-quote {
@@ -226,6 +227,26 @@ padding-bottom: 3vh;
 .content__header-text {
   padding-bottom: 5.4vh;
 }
+
+.photo-grid__container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(4, auto);
+    grid-auto-flow: row;
+  }
+
+   .places__title-container,
+  .places__description-container {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 28px;
+  }
+
+.places__title,
+.places__artist,
+.places__image-container,
+.places__text {
+  min-width: 0;
+}
+
 }
 
 
