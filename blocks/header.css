@@ -83,11 +83,22 @@
 
   @media screen and (max-width: 1024px) {
    
-  .header {
+.header {
     padding-bottom: 90px;
   }  
 
-  .header__cover-title {
+ .header__logo-image {
+  width: 32px;
+  height: 30.17px;
+  padding-top: 30px;
+  padding-bottom: 20.98px;
+} 
+
+.header__logo-text {
+  letter-spacing: 0.76px;
+}
+
+.header__cover-title {
     font-family: 'Inter';
     font-weight: 900;
     font-size: 75px;
@@ -106,7 +117,7 @@
 
 .header__cover-container {
   max-width: 100vh;
-  padding-bottom: 4.7vh;
+  padding-bottom: 0;
 }
 
 .header__cover-image {
@@ -121,6 +132,10 @@
 
 
   @media screen and (max-width: 544px) {
+
+  .header {
+  padding-bottom: 64px;
+}  
     
     .header__logo {
   padding-bottom: 0;
@@ -134,13 +149,15 @@
 
 .header__logo-image {
   width: 23.69px;
-  padding: 1.9vh 0 1.1vh 0;
+  height: auto;
+  padding: 14.706px 0 1.1vh 0;
   padding-bottom: 16.5px;
 }
 
 .header__logo-text {
   min-height: 1.1vh;
   font-size: 12px;
+  letter-spacing: normal;
 }
 
 
