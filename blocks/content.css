@@ -232,13 +232,20 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-template-rows: repeat(4, auto);
     grid-auto-flow: row;
+    gap: 16px;
+    margin-bottom: 88px;
   }
 
-   .places__title-container,
-  .places__description-container {
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    gap: 28px;
-  }
+.places {
+  row-gap: 72px;
+  padding-bottom: 90px;
+}
+
+.places__title-container,
+.places__description-container {
+  grid-template-columns: 340px minmax(0, 1fr);
+  gap: 28px;
+}
 
 .places__title,
 .places__artist,
@@ -246,6 +253,14 @@
 .places__text {
   min-width: 0;
 }
+
+.places__image {
+  width: 340px;
+  height: 340px;
+  object-fit: cover;
+}
+
+
 
 }
 

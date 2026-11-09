@@ -87,11 +87,15 @@
     padding-bottom: 90px;
   }  
 
+.header__logo {
+  padding-bottom: 90px;
+}  
+
  .header__logo-image {
   width: 32px;
   height: 30.17px;
   padding-top: 30px;
-  padding-bottom: 20.98px;
+  padding-bottom: 16.855px;
 } 
 
 .header__logo-text {
@@ -104,14 +108,14 @@
     font-size: 75px;
     line-height: 79px;
     text-align: center;
-    max-width: 500px;
-    padding-bottom: 16px;
+    max-width: 530px;
+    padding-bottom: 25px;
 }
 
 .header__cover-subtitle {
   width: 100%;
   max-width: 720px;
-  padding-bottom: 16px;
+  padding-bottom: 30px;
   font-size: 30px;
 }
 
