@@ -10,9 +10,9 @@
 .content__header {
   flex-wrap: wrap;
   min-width: 0;
-  
-
-  }
+  max-width: 830px;
+  margin-left: 98px;
+}
 
 .content__header-title {
   font-family: 'Inter';
@@ -20,7 +20,7 @@
   font-size: 54px;
   line-height: 107.4%;
   letter-spacing: 0%;
-  padding-bottom: 2.7vh;
+  padding-bottom: 40.08px;
 }
 
 .content__header-quote {
@@ -29,7 +29,8 @@
   font-size: 24px;
   line-height: 141.6%;
   letter-spacing: 0%;
-  padding-bottom: 1vh;
+  padding-bottom: 9.56px;
+  max-width: 738px;
 }
 
 .content__header-quotename {
@@ -39,7 +40,7 @@
   line-height: 141.6%;
   letter-spacing: 0%;
   text-align: right;
-  padding-bottom: 1.9vh;
+  padding-bottom: 32.53px;
 }
 
 .content__header-text {
@@ -48,8 +49,8 @@
   font-size: 16px;
   line-height: 163%;
   letter-spacing: 0%;
-  padding-bottom: 5.5vh;
-  max-width: 95%;
+  padding-bottom: 0;
+  max-width: 722px;
   
 }
 
