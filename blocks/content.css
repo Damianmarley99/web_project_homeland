@@ -213,20 +213,28 @@
   padding: 0 24px;
 }
 
+.content__header {
+    margin-left: 0;
+  }
+
 .content__header-title {
   font-family: 'Inter';
   font-weight: 900;
   font-size: 45px;
   line-height: 49px;
-  padding-bottom: 3vh;
+  padding-bottom: 50px;
 }
 
 .content__header-quote {
-  padding-bottom: 1vh;
+  padding-bottom: 0;
+}
+
+.content__header-quotename {
+  margin-top: -7.38px;
 }
 
 .content__header-text {
-  padding-bottom: 5.4vh;
+  padding-bottom: 0;
 }
 
 .photo-grid__container {
