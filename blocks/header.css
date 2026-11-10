@@ -137,12 +137,12 @@
 
   @media screen and (max-width: 544px) {
 
-  .header {
+.header {
   padding-bottom: 64px;
 }  
     
-    .header__logo {
-  padding-bottom: 16px;
+.header__logo {
+  padding-bottom: 49.83px;
   min-width: 19vh;
   min-height: 0;
   justify-content: flex-start;
