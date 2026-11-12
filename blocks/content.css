@@ -207,13 +207,38 @@
 }
 
 @media (min-width: 1025px) {
-  .photo-grid__container {
+
+ .photo-grid__container {
     width: 1184px;
     max-width: none;
     transform: translateX(-7px);
     column-gap: 16px;
     row-gap: 16px;
+    margin-bottom: 92px;
   }
+
+.places__artist-label {
+    margin-bottom: 8px;
+  }
+
+.places__paragraph + .places__paragraph {
+    margin-top: 0;
+  }
+ 
+.places__place:nth-child(2) .places__paragraph:first-child {
+    letter-spacing: -0.02px;
+  }
+  
+.places__place:nth-child(4) .places__image {
+  width: 460px;
+  height: 460px;
+  object-fit: cover;
+}
+
+.places {
+  padding-bottom: 90px;
+}
+
 }
 
 @media (min-width: 545px) and (max-width: 1024px) {
